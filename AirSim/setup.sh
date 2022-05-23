@@ -36,7 +36,7 @@ else #linux
         wget -O - http://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add -
         sudo apt-get update
     fi
-    sudo apt-get install -y clang-8 clang++-8 libc++-8-dev libc++abi-8-dev
+    sudo apt-get install -y clang-14 clang++-14 libc++-14-dev libc++abi-14-dev
 fi
 
 #give user perms to access USB port - this is not needed if not using PX4 HIL
